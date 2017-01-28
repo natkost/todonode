@@ -1,0 +1,30 @@
+{
+  "name": "todonode",
+  "version": "0.0.1",
+  "description": "node todo",
+  "main": "/src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/natkost/todonode.git"
+  },
+  "dependencies": {
+    "browser-sync": "^2.2.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "author": "Kostian Nataliia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natkost/todonode/issues"
+  },
+  "homepage": "https://github.com/natkost/todonode#readme"
+}
